@@ -1,0 +1,52 @@
+
+footer .social-link li {
+    max-width: 40px;
+  
+  }
+  
+  
+  footer{
+    background: #B5E760;
+    padding: 108px 0;
+    border-bottom: 1px solid #000;
+  }
+  
+  footer .social-link ul {
+   display: flex;
+   list-style: none;
+   flex-direction: row;
+   gap: 87px;
+  
+  }
+  
+  footer .footer-logo{
+    margin-bottom: 96px;
+  }
+  
+  footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+  }
+  
+  footer h3{
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 26px;
+    margin-top: 23px;
+  }
+  
+  footer ul li a{
+    color: #000 ;
+    font-family: Poppins;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  
+  }

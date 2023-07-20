@@ -1,0 +1,83 @@
+
+.home-blog{
+    padding-bottom: 132px;
+  }
+  
+  .home-blog h2{
+    color: #303299;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .home-blog .container > p{
+    color: #303299;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 178px;
+    text-align: center;
+  
+  }
+
+  .home-blog h3{
+    color: #000;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 46px;
+  }
+
+  .home-blog p{
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding:  0 46px 46px;
+  }
+
+  .react-multi-carousel-item {
+    padding: 0 25px;
+    
+  }
+
+  .react-multi-carousel-item > div{
+    border-radius: 30px;
+    background: #F3F7FD;
+    box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.13);
+  } 
+
+
+  .react-multi-carousel-list {
+    padding-bottom: 138px;
+  }
+
+  .react-multi-carousel-dot--active button{
+    border-radius: 0 !important;
+    border: 0 !important;
+    transform: rotate(-45deg) !important;
+    background-color: #9D0191 !important;
+  }
+
+  .react-multi-carousel-dot button{
+    margin-right: 58px !important; 
+  }
+
+
+
+  .react-multi-carousel-dot-list{
+    bottom: 15px !important;
+  }
+
+  .react-multi-carousel-dot-list .react-multi-carousel-dot:last-child{
+    margin-right: 0 !important;
+  }

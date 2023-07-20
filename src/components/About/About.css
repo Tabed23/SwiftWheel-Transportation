@@ -1,0 +1,164 @@
+.about-intro .container{
+    min-height: 564px;
+    display: flex;
+    align-items: center;
+}
+
+.about-intro{
+    position: relative;
+    background-image: url('../../assets/images/aboutintrobg.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-intro::before{
+    content: '';
+    width: 100%;
+    min-height: 564px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.54);
+}
+  
+.about-intro h1{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: relative;
+}
+
+.about-ny-banner{
+    position: relative;
+    height: 100%;
+}
+.about-ny-b1, .about-ny-b2 {
+    width: 445px;
+    position: absolute;
+
+}
+
+.about-ny-b1 {
+    top: 0;
+    left: 0;
+}
+
+.about-ny-b2 {
+    bottom: 0;
+    right: 0;
+    
+}
+
+.about-newyork{
+    padding: 226px 0;
+    background: #F3F7FD;
+
+}
+
+.about-newyork h2{
+    color: #303299;
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.about-newyork p{
+    color: #2C2C2C;
+    font-family: Poppins;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.about-why{
+    padding: 134px 0;
+    position: relative;
+}
+
+.about-why h2{
+    margin-bottom: 78px;
+    color:  #9D0191;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.about-why h2 span{
+    color:  #303299;
+}
+
+.about-why p{
+    color: #2C2C2C;
+    font-family: Poppins;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 89px;
+}
+
+
+.about-why a {
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+    border-radius: 12px;
+    background: #9D0191;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 479px;
+    justify-content: center;
+  }
+
+  .about-experience{
+    padding: 78px 0;
+    background: #F3F7FD;
+    position: relative;
+  }
+.about-experience h2{
+    color:  #9D0191;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.about-experience h2 span{
+    color:  #303299;
+}
+
+
+.about-exp-post-head{
+    color: #303299;
+    font-family: Poppins;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 61px;
+}
+
+.about-experience{
+    color: #2C2C2C;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
