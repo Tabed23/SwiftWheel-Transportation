@@ -13,6 +13,7 @@ import Footer from './components/Footer/Footer'
 import NoMatch from './components/404/Notfound'
 import About from './components/About/About'
 import Contact from './components/Contact/Contact'
+import Services from './components/Services/Services'
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/services" element={<Services />} />
 
 
         <Route path="*" element={<NoMatch />} />

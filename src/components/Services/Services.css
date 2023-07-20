@@ -1,0 +1,241 @@
+.services-intro .container{
+    min-height: 564px;
+    display: flex;
+    align-items: center;
+}
+
+.services-intro{
+    position: relative;
+    background-image: url('../../assets/images/servicesintrobg.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.services-intro::before{
+    content: '';
+    width: 100%;
+    min-height: 564px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.54);
+}
+  
+.services-intro h1{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: relative;
+}
+
+
+
+.services-why{
+    padding: 134px 0;
+    position: relative;
+    background: #F3F7FD;
+}
+
+.services-why h2{
+    margin-bottom: 20px;
+    color:  #303299;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.services-why h2 span{
+    color:  #303299;
+}
+
+.services-why p.svs-why-post-header{
+    color: #2C2C2C;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 20px !important;
+}
+.services-why p{
+    color: #2C2C2C;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 89px;
+}
+
+
+.services-why a {
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+    border-radius: 12px;
+    background: #9D0191;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 479px;
+    justify-content: center;
+  }
+
+.core-services {
+    padding: 126px 0;
+    position: relative;
+}
+  .core-services h2{
+    color: #9D0191;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 152px;
+  }
+
+  .core-services h2 span{
+    color:  #303299;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+
+.more-info-btn{
+    border-radius: 8px;
+    border: 2px solid  #B5E760;
+    padding: 8px 31px;
+    background-color: transparent;
+    color: #2C2C2C;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.book-now-btn{
+    border-radius: 8px;
+    border: 2px solid  #B5E760;
+    background-color: #B5E760;
+    padding: 8px 31px;
+    color: #2C2C2C;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.service-tile-btns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service-tile-grey-part{
+    background: #F3F7FD;
+    box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.13);
+    padding: 25px;
+}
+
+.service-tile{
+    border-radius: 30px;
+    height: 603px;
+}
+
+.service-tile h3{
+    color: #9D0191;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.service-tile p{
+    color: var(--black, #2C2C2C);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.shown-part, .hidden-part{
+    padding: 45px 0;
+}
+
+.hidden-part{
+    height: 0;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    padding: 0;
+}
+
+.hidden-part p{
+    font-size: 16px;
+}
+
+.shown-part{
+    height: auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.service-tile:hover .hidden-part{
+    padding: 45px 0;
+    height: auto;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.service-tile:hover .shown-part{
+    height: 0;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    padding: 0;
+}
+
+
+.core-services .row{
+    row-gap: 35px;
+}
+
+
+.services-carousel .react-multi-carousel-list {
+    /* padding-bottom: 138px; */
+    margin: 0 -30px;
+}
+
+.services-carousel .react-multi-carousel-item {
+    padding: 0 15px;
+  }
+  /* .services-carousel  .react-multiple-carousel__arrow--right::before {
+    content: ">>";
+    font-family: poppins;
+    background: transparent !important;
+    color: #000;
+  }
+
+  .services-carousel  .react-multiple-carousel__arrow{
+    background: transparent !important;
+  } */
+
+  /* .react-multiple-carousel__arrow.react-multiple-carousel__arrow--right {
+    right: -200px;
+  } */
