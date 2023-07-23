@@ -11,6 +11,29 @@
     background-repeat: no-repeat;
 }
 
+.services-intro.blog{
+    position: relative;
+    background-image: url('../../assets/images/blogintrobg.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.services-why.blog-why h2{
+    padding-left: 100px;
+    position: relative;
+}
+
+.services-why.blog-why h2:before{
+   content: '';
+   width: 85px;
+   height: 9px;
+   position: absolute;
+   top: 50%;
+   left: 0;
+   background-color: #9D0191;
+}
+
+
 .services-intro::before{
     content: '';
     width: 100%;
@@ -239,3 +262,37 @@
   /* .react-multiple-carousel__arrow.react-multiple-carousel__arrow--right {
     right: -200px;
   } */
+
+
+  .modal-body h1{
+    color:#9D0191;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 24px;
+
+  }
+
+  .modal-body h3{
+    color: #2C2C2C;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .modal-body p{
+    color:  #2C2C2C;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .modal-header{
+    border: none !important;
+  }

@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import "./Services.css";
+import "../Services/Services.css";
 import Awardwinning from "../Awardwinning/Awardwinning";
 import LatestBlog from "../Latestblog/Latestblog";
 import Carousel from "react-multi-carousel";
@@ -11,24 +11,7 @@ import whitephone from "../../assets/images/whitephone.svg";
 import servicebanner from "../../assets/images/servicebanner.svg";
 import servicetileimg from "../../assets/images/service-tile-img.svg";
 
-const Services = () => {
-  const responsive = {
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 3,
-      slidesToSlide: 2, // optional, default to 1.
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2,
-      slidesToSlide: 2, // optional, default to 1.
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1,
-      slidesToSlide: 1, // optional, default to 1.
-    },
-  };
+const Carlemoservice = () => {
   const [isShow, invokeModal] = useState(false)
   const [modalhead, setmodalhead] = useState('')
   const [modaldesc, setmodaldesc] = useState('')
@@ -711,7 +694,7 @@ const Services = () => {
         
       </Modal>
     </>
-  );
-};
+  )
+}
 
-export default Services;
+export default Carlemoservice
