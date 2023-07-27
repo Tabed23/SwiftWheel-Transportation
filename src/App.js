@@ -14,8 +14,6 @@ import NoMatch from './components/404/Notfound'
 import About from './components/About/About'
 import Contact from './components/Contact/Contact'
 import Services from './components/Services/Services'
-import Carlemoservice from './components/Calemoservice/Carlemoservice'
-import Blog from './components/Blog/Blog';
 
 
 function App() {
@@ -27,8 +25,6 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/carlemoservice" element={<Carlemoservice />} />
-        <Route path="/blog" element={<Blog />} />
 
 
         <Route path="*" element={<NoMatch />} />
