@@ -15,6 +15,7 @@ import About from './components/About/About'
 import Contact from './components/Contact/Contact'
 import Services from './components/Services/Services'
 import Carlemoservice from './components/Calemoservice/Carlemoservice'
+import Inboundservice from './components/Inboundservice/Inboundservice'
 import Blog from './components/Blog/Blog';
 
 
@@ -28,6 +29,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/services" element={<Services />} />
         <Route path="/carlemoservice" element={<Carlemoservice />} />
+        <Route path="/inboundservice" element={<Inboundservice />} />
         <Route path="/blog" element={<Blog />} />
 
 
