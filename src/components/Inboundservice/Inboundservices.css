@@ -1,0 +1,53 @@
+.servicesHeader{
+        color: #0e2b3d;
+        font-weight: normal;
+        line-height: 1.2;
+        font-family: 'Inter', sans-serif;
+        letter-spacing: 0;
+        margin: 0 0 50px;
+}
+
+
+.core-services ul li{
+    display: block;
+    margin-bottom: 15px;
+    padding-left: 25px;
+    position: relative;
+    font-weight: 600;
+    color: #232323;
+    position: relative;
+    
+}
+
+.core-services ul li:before{
+   content: '';
+   width: 15px;
+   height: 15px;
+   background-image: url('../../assets/images/checked.png');
+   position: absolute;
+   left: 0;
+   top: 20%;
+   background-size: cover;
+}
+
+.core-services ul {
+    margin: 0 0 50px;
+
+}
+
+.core-services  a{
+    display: flex;
+align-items: center;
+padding: 20px 40px;
+border-radius: 12px;
+background: #9D0191;
+color: #FFF;
+font-family: 'Poppins', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+width: 479px;
+justify-content: center;
+margin: 0 auto;
+}

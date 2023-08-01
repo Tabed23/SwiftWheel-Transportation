@@ -64,6 +64,11 @@ const Header = () => {
                       Car & Lemo Service
                     </Link>
                   </li>
+                  <li>
+                    <Link class="dropdown-item" to={"/inboundservice"}>
+                      Inbound Service
+                    </Link>
+                  </li>
                 </ul>
               </li>
 
